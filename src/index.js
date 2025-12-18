@@ -30,8 +30,7 @@ connectDB();
 app.use(helmet());
 app.use(
   cors({
-    origin: [CLIENT_URL, "https://qn4jvf18-5173.inc1.devtunnels.ms"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: CLIENT_URL,
     credentials: true,
   })
 );
