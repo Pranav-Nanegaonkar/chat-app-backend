@@ -18,7 +18,6 @@ import logger from "./utils/logger.js";
 import { morganLogger } from "./utils/morganLogger.js";
 import { app, server } from "./utils/socket.js";
 
-
 // import path from "path";
 // const __dirname = path.resolve();
 
@@ -45,7 +44,7 @@ app.use(express.urlencoded({ limit: "10mb", extended: true }));
 app.use(fileUpload());
 
 app.get("/", (req, res) => {
-  res.send("Server is running");
+  res.json({ status: "Server is running" });
 });
 
 // Routes
