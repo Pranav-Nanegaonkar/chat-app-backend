@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.test
+.env*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional caches
+.npm
+.eslintcache
+.cache
+.parcel-cache
+
+# Compiled/Build files (adjust as needed for your specific build process)
+/dist
+/build
+/out
+
+# Editor/IDE-specific files (optional, depending on team preference)
+.vscode/
+.idea/
+.DS_Store # macOS system files
+Thumbs.db # Windows system files
